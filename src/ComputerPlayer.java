@@ -9,7 +9,7 @@ public class ComputerPlayer extends Player {
 
     @Override
     void makeStep() {
-        System.out.println("Ход компьютера");
+        sleep();
         boolean isRight = false;
         while (!isRight){
             int row = rnd.nextInt(gameField.length);
