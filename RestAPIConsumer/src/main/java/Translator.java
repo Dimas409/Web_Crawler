@@ -22,7 +22,7 @@ public class Translator {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add("Authorization", "Bearer " + "t1.9euelZqZnI-KkZSVnZDIlpGXmJuZze3rnpWazM-Sl5HNkYmVlcyPzpSayZfl8_cOCFNV-e8tEVtE_N3z9042UFX57y0RW0T8zef1656VmpiciZrMlJGSl4yPlsqWzoyU7_zF656VmpiciZrMlJGSl4yPlsqWzoyU.AxNZLfiW6LaRF2DqUMi6UMErpzC2YpqIJstyptG5EKIYKgQuZLCru7HgY1bt_IxzekOnzX70H0JYq4Nk5I0kCQ");
+        headers.add("Authorization", "Bearer " + "");
 
         Map<String , String > jasonData = new HashMap<>();
         jasonData.put("folderId", "b1g29qut66o9vhv3kda3");
