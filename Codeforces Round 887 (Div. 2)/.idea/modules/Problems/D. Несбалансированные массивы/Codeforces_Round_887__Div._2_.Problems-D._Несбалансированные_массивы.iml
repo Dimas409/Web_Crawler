@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-D._Несбалансированные_массивы" external.linked.project.path="$MODULE_DIR$/../../../../Problems/D. Несбалансированные массивы" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Codeforces_Round_887__Div._2_" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/D. Несбалансированные массивы">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/D. Несбалансированные массивы/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/D. Несбалансированные массивы/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/D. Несбалансированные массивы/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

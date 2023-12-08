@@ -33,21 +33,6 @@ public class Main_home_work_task4 {
                 timeTable[i][j] = lessons[randomLessons];
             }
             System.out.println(dayOfWeek[i] + Arrays.toString(timeTable[i]));
-//            if (i == 0) {
-//                System.out.println("Понедельник" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 1) {
-//                System.out.println("Вторник" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 2) {
-//                System.out.println("Среда" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 3) {
-//                System.out.println("Четверг" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 4) {
-//                System.out.println("Пятница" + Arrays.toString(timeTable[i]));
-//            }
         }
         Scanner scn = new Scanner(System.in);
 
@@ -70,33 +55,9 @@ public class Main_home_work_task4 {
 
         }
 
-
-//        String[] arr = timeTable[dayOfWeek.length];
-//        for (int i = 0; i < arr.length; i++) {
-//            if (lessonOut.equals(arr[i])) {
-//                arr[i] = lessonIn;
-//            }
-//        }
-
         for (int i = 0; i < timeTable.length; i++) {
-            for (int j = 0; j < timeTable[i].length; j++) {
-            }
             System.out.println(dayOfWeek[i] + Arrays.toString(timeTable[i]));
-//            if (i == 0) {
-//                System.out.println("Понедельник" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 1) {
-//                System.out.println("Вторник" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 2) {
-//                System.out.println("Среда" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 3) {
-//                System.out.println("Четверг" + Arrays.toString(timeTable[i]));
-//            }
-//            if (i == 4) {
-//                System.out.println("Пятница" + Arrays.toString(timeTable[i]));
-//            }
+
         }
 
 

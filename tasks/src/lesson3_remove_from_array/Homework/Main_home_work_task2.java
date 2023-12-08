@@ -1,5 +1,6 @@
 package lesson3_remove_from_array.Homework;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Scanner;
@@ -12,21 +13,18 @@ public class Main_home_work_task2 {
 //
 //        Далее юзер вводит с консоли строчку.
 //        Найдите строчку в массиве и удалите ее с помощью сдвига влево
-
+        ArrayList<String> list = new ArrayList<>();
+        list.add("one");
+        list.add("two");
+        list.add("three");
+        list.add("four");
+        list.add("five");
         Scanner scn = new Scanner(System.in);
-        String[] arr = {"one", "two", "three", "four", "five"};
-        int index = 0;
+        int index ;
         System.out.print("Enter the value: ");
         String input = scn.next();
-        for (int i = 0; i < arr.length; i++) {
-            if (Objects.equals(input, arr[i])) {
-                index = i;
-            }
-        }
-        for (int i = index; i < arr.length - 1; i++) {
-            arr[i] = arr[i + 1];
-        }
-        arr[arr.length-1] = null;
-        System.out.println(Arrays.toString(arr));
+        index = list.indexOf(input);
+        list.remove(index);
+        System.out.println(list);
     }
 }

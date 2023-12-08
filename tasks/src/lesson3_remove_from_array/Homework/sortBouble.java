@@ -21,7 +21,6 @@ public class sortBouble {
             printArray(array);
         }
 
-
     printArray(array);
 
     }

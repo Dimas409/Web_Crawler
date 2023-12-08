@@ -1,0 +1,9 @@
+<People>
+  <name>Dmitry</name>
+  <age>34</age>
+  <car>
+    <name>Ferrary</name>
+    <fuel>100</fuel>
+    <price>3000000</price>
+  </car>
+</People>
